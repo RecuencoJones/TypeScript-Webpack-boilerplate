@@ -1,0 +1,10 @@
+.idea
+.gitattributes
+.gitignore
+tmp
+test
+index.html
+node_modules
+webpack.config.*
+tslint.json
+sonar-project.properties
