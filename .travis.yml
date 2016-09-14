@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "5"
+  - "6"
+
+before_install:
+  - "npm i -g npm@3.10.6"
+
+install:
+  - npm install
+  - npm run setup
+
+script:
+  - npm test
