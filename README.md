@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/RecuencoJones/typescript-webpack-boilerplate.png?branch=develop)](https://travis-ci.org/RecuencoJones/typescript-webpack-boilerplate)
+
 # TypeScript Webpack Boilerplate
 
 A template for TypeScript projects. It works well both for final 
@@ -5,8 +7,12 @@ applications and class libraries.
 
 ## Using the library
 
+### Browser
 Import `/~/typescript-webpack-boilerplate/dist/index.js`. 
-The library will be under the **TWB** namespace. 
+The library will be under the **TWB** namespace.
+ 
+### CommonJS
+Import with `require('typescript-webpack-boilerplate')`.
 
 ## Definitions file
 
