@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/RecuencoJones/typescript-webpack-boilerplate.png?branch=develop)](https://travis-ci.org/RecuencoJones/typescript-webpack-boilerplate)
+[![Build Status](https://travis-ci.org/RecuencoJones/TypeScript-Webpack-boilerplate.png?branch=develop)](https://travis-ci.org/RecuencoJones/TypeScript-Webpack-boilerplate)
 
 # TypeScript Webpack Boilerplate
 
