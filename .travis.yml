@@ -3,6 +3,23 @@ node_js:
   - "5"
   - "6"
 
+addons:
+  sonarqube: true
+
+env:
+  global:
+    - secure: >
+      pMyg+tIAMZfqgw1fbxIx9QPQCw3H1gEYQVQWb5kdPDz4+0OAvgI7/WeE4TaRZjO9iNV9haFDeG
+      La2NhjnQip2IHdI1maHK5y5pieZVQsy3y1SKk/uUeCsRkaPwTkEDC2ICNxf5ADsUpysLzqcmr9
+      oFs0Z7vY2r86klTb6taeF6z84yjXfOBjAX2z/DoQtkZ/AaiSnKBNErfvwhWjPSn5K/o8qax4b8
+      fj9+j2eu2OlwnX1YA9cB6/JklpTrVNZAhZ5Md5BHhGFZQgA9U8Dz+3UhWgeteYK0OKlrE13tb1
+      D2Ei1tat+KTrCXlJ2bZCFW+5jc2yX+0oxxQFtGuiEjYAtQI0cR1Cu26r6DMrFSNFaloszXveZO
+      RG9BJyaO3uyHVEC20Nh+6wlcm6zIEAxk3IM6ghovgl5bbc+geywBiPuVThFlMZEQo1BbnYh7am
+      N5PQYt+ZLZK68uFNvOBFTkn9k14eoiFEE9+4J5/ESrD0TUdBJRVk0npt1tlYvkQ9o5C8M8YEz7
+      0T6zQOi79eUbCF9vSa5+XilNzvIRp33MOVbvw4pgfWPjYr9sdc0zMG+db6Tt6atxOAsxL7wYa/
+      PAIpz1wL7q/bHpCzI4Or3kGfqkf5w3bMafXOYlM6jrb8Pacr4TN6f/y51nqU4njGn17LrDqHZZ
+      HnmBo0kGGMhORpR5M=
+
 before_install:
   - "npm i -g npm@3.10.6"
 
@@ -12,3 +29,4 @@ install:
 
 script:
   - npm test
+  - sonar-scanner -Dsonar.login=$SONAR_TOKEN
