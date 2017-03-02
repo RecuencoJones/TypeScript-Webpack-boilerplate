@@ -8,6 +8,9 @@ jdk:
 
 addons:
   sonarqube: true
+  branches:
+    - master
+    - develop
 
 env:
   global:
