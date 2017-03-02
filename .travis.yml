@@ -7,10 +7,10 @@ jdk:
 - oraclejdk8
 
 addons:
-  sonarqube: true
-  branches:
-    - master
-    - develop
+  sonarqube:
+    branches:
+      - master
+      - develop
 
 env:
   global:
