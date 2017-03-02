@@ -25,4 +25,4 @@ install:
 
 script:
   - npm test
-  - sonar-scanner -Dsonar.login=$SONAR_TOKEN
+  - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.branch=$TRAVIS_BRANCH
