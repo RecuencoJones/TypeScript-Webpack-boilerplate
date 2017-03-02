@@ -1,16 +1,17 @@
 [![Build Status](https://travis-ci.org/RecuencoJones/TypeScript-Webpack-boilerplate.png?branch=develop)](https://travis-ci.org/RecuencoJones/TypeScript-Webpack-boilerplate)
+[![Quality Gate](https://sonarqube.com/api/badges/gate?key=TypeScript-Webpack-boilerplate)](https://sonarqube.com/dashboard/index/TypeScript-Webpack-boilerplate)
 
 # TypeScript Webpack Boilerplate
 
-A template for TypeScript projects. It works well both for final 
+A template for TypeScript projects. It works well both for final
 applications and class libraries.
 
 ## Using the library
 
 ### Browser
-Import `/~/typescript-webpack-boilerplate/dist/index.js`. 
+Import `/~/typescript-webpack-boilerplate/dist/index.js`.
 The library will be under the **TWB** namespace.
- 
+
 ### CommonJS
 Import with `require('typescript-webpack-boilerplate')`.
 
@@ -22,8 +23,8 @@ repository would be the best.
 
 ## Working with the project
 
-Remember to update the barrel [app/Index.ts](app/Index.ts) if you want 
-to export new functionalities. Also, you will need to update the type 
+Remember to update the barrel [app/Index.ts](app/Index.ts) if you want
+to export new functionalities. Also, you will need to update the type
 definitions.
 
 ## Scripts
@@ -42,4 +43,4 @@ The coverage reports can be found under `test/results/coverage`.
 ## Sonar
 
 You will need to add the plugin [SonarTsPlugin](https://github.com/Pablissimo/SonarTsPlugin).
- 
+
